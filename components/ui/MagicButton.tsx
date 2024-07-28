@@ -7,6 +7,7 @@ interface MagicButtonProps {
   position: "left" | "right";
   handleClick?: () => void;
   otherClasses?: string;
+  href?: string;
 }
 
 export default function MagicButton({
@@ -15,7 +16,9 @@ export default function MagicButton({
   position,
   handleClick,
   otherClasses = "",
+  href,
 }: MagicButtonProps) {
+
   return (
     <button 
       onClick={handleClick}

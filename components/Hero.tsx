@@ -38,9 +38,9 @@ export default function Hero({}: Props) {
               words="Transforming Words into Seamless Transitions"
             />
             <p className=" md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hi! Ishan this side ,I'm NEXT.js , Rust  Developer .
+              Hi! Ishan this side ,I'm NEXT.js, Rust  Developer .
             </p>
-            <a href="#about">
+            <a href="https://github.com/Allmight-456" target="_blank" rel="noopener noreferrer">
               <MagicButton
                 title="Show my work"
                 icon={FaLocationArrow}

@@ -1,7 +1,14 @@
+"use client";
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientAnimation";
 import { GlobeDemo } from "./GridGlobe";
 import { div } from "three/webgpu";
+import Lottie from "react-lottie";
+import { useState } from "react";
+import animationData from "@/data/confetti.json";
+import MagicButton from "./MagicButton";
+import { IoCopyOutline } from "react-icons/io5";
+import { FaLocationArrow } from "react-icons/fa";
 
 export const BentoGrid = ({
   className,
@@ -13,7 +20,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-[8rem] grid-cols-1 md:grid-cols-5 gap-4 max-w-7xl mx-auto ",
+        "grid md:auto-rows-[10rem] grid-cols-1 md:grid-cols-5 gap-4 max-w-7xl mx-auto ",
         className
       )}
     >
@@ -43,10 +50,18 @@ export const BentoGridItem = ({
   imgClassName?: string;
   titleClassName?: string;
 }) => {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText("bhardwajishansingh@gmail.com");
+
+    setCopied(true);
+  };
+
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none border-white/[0.1]  justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none border dark:border-white/[0.1]  justify-between flex flex-col space-y-4",
         className
       )}
       style={{
@@ -55,8 +70,8 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className={`${id === 6 && "flex justify-center"} h-full`}>
-        <div className="w-full h-full absolute">
+      <div className={`${id === 6 && "flex justify-center"} 'h-full'`}>
+        <div className="w-full h-full absolute items-center">
           {img && (
             <img
               src={img}
@@ -110,7 +125,7 @@ export const BentoGridItem = ({
           <div className="flex  lg:gap-5 w-fit absolute -right-3 top-0 gap-1 lg:-right-2">
             {/* tech stack lists */}
             <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-              {["React.js", "NEXT.js", "TypeScript", "Tailwind CSS"].map(
+              {["React.js", "NEXT.js", "TypeScript", "Node.js"].map(
                 (item, i) => (
                   <span
                     key={i}
@@ -123,9 +138,9 @@ export const BentoGridItem = ({
               )}
               <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
             </div>
-            <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+            <div className="flex flex-col gap-3 md:gap-3 lg:gap-8 ">
               <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-              {["React.js", "NEXT.js", "TypeScript", "Tailwind CSS"].map(
+              {["Git", "ShadCN UI", "Tailwind CSS", "Express"].map(
                 (item, i) => (
                   <span
                     key={i}
@@ -136,6 +151,31 @@ export const BentoGridItem = ({
                   </span>
                 )
               )}
+            </div>
+          </div>
+        )}
+        {id === 6 && (
+          <div className="flex flex-col items-center justify-center h-full gap-4 md:flex-row lg:flex-row ">
+            <div className={`absolute items-center gap-2 `}>
+              <Lottie
+                options={{
+                  loop: copied,
+                  autoplay: copied,
+                  animationData,
+                  rendererSettings: {
+                    preserveAspectRatio: "xMidyMid slice",
+                  },
+                }}
+              />
+            </div>
+            <div className="flex justify-center items-center">
+            <MagicButton
+                title={copied ? 'Email Copied' : "Copy My Email"}
+                icon={IoCopyOutline}
+                position="right"
+                otherClasses="!bg-[#161a31]"
+                handleClick={handleCopy}
+              />
             </div>
           </div>
         )}
