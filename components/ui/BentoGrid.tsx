@@ -155,20 +155,20 @@ export const BentoGridItem = ({
           </div>
         )}
         {id === 6 && (
-          <div className="flex flex-col items-center justify-center h-full gap-4 md:flex-row lg:flex-row ">
-            <div className={`absolute items-center gap-2 `}>
+          <div className="flex flex-col items-center justify-center h-full gap-4 md:flex-col lg:flex-col ">
+            <div className='absolute items-center gap-2 '>
               <Lottie
                 options={{
                   loop: copied,
                   autoplay: copied,
                   animationData,
                   rendererSettings: {
-                    preserveAspectRatio: "xMidyMid slice",
+                    preserveAspectRatio: "xMidYMid slice",
                   },
                 }}
               />
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center mx-5 lg:translate-y-[-30%] md:translate-y-[-30%] ">
             <MagicButton
                 title={copied ? 'Email Copied' : "Copy My Email"}
                 icon={IoCopyOutline}
