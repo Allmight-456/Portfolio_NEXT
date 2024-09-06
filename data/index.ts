@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I embrace global connectivity, fostering open dialogue and collaborative growth in every project. ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I seamlessly accommodate diverse time zones, ensuring smooth collaboration across globe.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,9 +28,9 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    title: "Technical Proficiencies  ",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2 overlap-hidden",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Ardent technophile with an insatiable zeal for innovative development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently building a Medium Blogging site clone ",
+    description: "Inside Scooop ",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Interested in collaborating on a project?",
     description: "",
     className: "lg:col-span-5 md:row-span-1 md:col-span-5",
     imgClassName: "",
@@ -72,68 +72,62 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Anime Haven - Anime Recommendation Site",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Anime Haven - Anime  Site",
+    des: "Purpose behind it's creations was to provide new fans into the community with info like Free streaming licensed sites/channels, platforms that let you stream with subscriptions.",
+    img: "/AnimeHaven.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://anime-haven-react.netlify.app",
   },
   {
     id: 2,
     title: "Modern UI DashBoard - ShadCN  ",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    des: "A modern dashboard application built with Next.js, TypeScript, and ShadCN UI library. This project features a responsive sidebar navigation and various data visualization components",
+    img: "/UIdashboard.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shadcn.png"],
+    link: "https://dashboard-ui-shadcn.netlify.app",
   },
   {
     id: 3,
     title: "WeBlog - Blogging site ",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "A Blog site insoired by medium which does not have all content reserved for premium users only",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg","/image.avif"],
+    link: "https://github.com/Allmight-456/Blog-site",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Astra Dynamic- UI components",
+    des: "AstraUI is a powerful toolkit for crafting stunning, responsive frontends using Next.js, ShadCN UI, and Framer Motion.",
+    img: "/AstraDynamic.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/image.avif","/shadcn.png"],
+    link: "https://ad-astra-landing-page.vercel.app",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "When buying a product on Flipkart ,  goto the address selection and goto the payments page and then go back to previous page without payment , after this the only available option on Iphone’s Flipkart app is to buy it , no back button to the homepage or the cart is present , also the options at bottom cease to exist , only way to maybe add item or remove is to reopen the app or( if you know it) slide from the left edge towards right towards right.",
+    name: "Flipkart IoS App",
+    title: "Bug Alert",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "When opened for the first time the app simply refreshes on the first press/click  and shifts the page options to a position higher than before with new connect option (maybe this is causing this), happens every time I try to open folder , Problems for macbook .",
+    name: "VSCode for Mac",
+    title: "Bug Alert",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "ShadCN UI is a customizable and accessible component library built for React applications. It offers a modern design system with pre-built components, theming capabilities, and support for dark mode, all while maintaining high performance and responsiveness,Allows seamless integration with Tailwind CSS for consistent styling.",
+    name: "ShadCN UI",
+    title: "Developer Picks",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Aceternity UI is a modern and highly flexible component library designed for building sleek and responsive user interfaces. It provides a wide range of UI components that are fully customizable, with a focus on performance, accessibility, and ease of integration. Aceternity UI is compatible with popular frameworks, allowing developers to create stunning interfaces efficiently.",
+    name: "Aceternity UI",
+    title: "Developer Picks",
   },
 ];
 
@@ -173,29 +167,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "React Frontend for Anime Haven",
+    desc: "Made an Anime recommendations Site with offerings for paid and unpaid sources",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "AI ChatBot with LangChain ",
+    desc: "A chatbot to answer quieries on a avialable data set with LLM  ",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Led the dev of a mobile app using figma and Flutter .Used APIs to integrate backend",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title:  "ReUsable Component libraries ",
+    desc: "Developed and maintained user-facing features using modern frontend technologies in form reusable Components.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
