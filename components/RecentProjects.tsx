@@ -17,7 +17,7 @@ export default function RecentProjects({}: Props) {
         className="flex flex-wrap items-center
         justify-center p-4 gap-x-24 gap-y8 mt-10 "
       >
-        {projects.map(({ title, des, img, iconLists, link, id }) => (
+        {projects.map(({ title, des, img, iconLists, link, id}) => (
           <div
             className="sm:h-[41rem] lg:min-h-[32.5rem] flex items-center
                 justify-center sm:w-[570px] w-[80vw]"

@@ -37,8 +37,8 @@ export default function Hero({}: Props) {
               className="text-center text-[40px] md:text-5xl lg:text-6xl "
               words="Building the Future, One Line of Code at a Time."
             />
-            <p className=" md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hi! Ishan this side ,I'm NEXT.js ,React  Developer .
+            <p className=" md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl ">
+              Hi! Ishan this side ,I&apos;m NEXT.js ,React  Developer .
             </p>
             <a href="https://github.com/Allmight-456" target="_blank" rel="noopener noreferrer">
               <MagicButton

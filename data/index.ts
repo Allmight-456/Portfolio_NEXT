@@ -83,7 +83,7 @@ export const projects = [
     title: "Modern UI DashBoard - ShadCN  ",
     des: "A modern dashboard application built with Next.js, TypeScript, and ShadCN UI library. This project features a responsive sidebar navigation and various data visualization components",
     img: "/UIdashboard.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/shadcn.png"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://dashboard-ui-shadcn.netlify.app",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: "Astra Dynamic- UI components",
     des: "AstraUI is a powerful toolkit for crafting stunning, responsive frontends using Next.js, ShadCN UI, and Framer Motion.",
     img: "/AstraDynamic.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/image.avif","/shadcn.png"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/image.avif"],
     link: "https://ad-astra-landing-page.vercel.app",
   },
 ];
