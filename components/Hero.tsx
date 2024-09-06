@@ -31,14 +31,14 @@ export default function Hero({}: Props) {
           justify-center"
           >
             <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-              Dynamic Web Magic With NextJS
+              From Imagination to Implementation. 
             </h2>
             <TextGenerateEffect
               className="text-center text-[40px] md:text-5xl lg:text-6xl "
-              words="Transforming Words into Seamless Transitions"
+              words="Building the Future, One Line of Code at a Time."
             />
             <p className=" md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              Hi! Ishan this side ,I'm NEXT.js, Rust  Developer .
+              Hi! Ishan this side ,I'm NEXT.js ,React  Developer .
             </p>
             <a href="https://github.com/Allmight-456" target="_blank" rel="noopener noreferrer">
               <MagicButton
